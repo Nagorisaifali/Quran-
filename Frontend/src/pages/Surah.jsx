@@ -9,7 +9,7 @@ export default function Surah() {
   const [surah, setSurah] = useState(null);
 
   useEffect(() => {
-    axios.get(`http://localhost:5000/api/quran/surah/${id}`)
+    axios.get(`https://quran-nlje.onrender.com/api/quran/surah/${id}`)
       .then(res => setSurah(res.data));
   }, [id]);
 
