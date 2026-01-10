@@ -7,7 +7,7 @@ export default function Home() {
   const [surahs, setSurahs] = useState([]);
 
   useEffect(() => {
-    axios.get("http://localhost:5000/api/quran/surahs")
+    axios.get("https://quran-nlje.onrender.com/api/quran/surahs")
       .then(res => setSurahs(res.data));
   }, []); 
 
