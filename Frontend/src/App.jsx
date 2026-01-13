@@ -4,6 +4,7 @@ import Home from "./pages/Home";
 import Surah from "./pages/Surah";
 import Navbar from "./components/Navbar";
 
+
 export default function App() {
   return (
     <BrowserRouter>
@@ -15,3 +16,4 @@ export default function App() {
     </BrowserRouter>
   );
 }
+
